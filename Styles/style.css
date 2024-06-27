@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background:linear-gradient(45deg,pink,rgb(227, 238, 127));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container h1{
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    color: white;
+}
+.container h1 span{
+    color: brown;
+}
+textarea{
+    width: 650px;
+    height: 250px;
+    background: rgb(23, 61, 73) ;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    border: none;
+    outline: none;
+    padding: 20px;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 30px;
+   
+}
+textarea ::placeholder{
+    color: rgb(153, 25, 25);
+    font-size: 25px;
+    font-weight: bold;
+}
+.row{
+     width: 600px;
+     display: flex;
+     align-items: center;
+     gap: 20px;
+}
+.row button{
+    background: #ff2963;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 35px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+button img{
+    width: 16px;
+    margin-right: 10px;
+}
+select{
+    flex: 1;
+    color: white;
+    background: #403d84;
+    height: 50px;
+    padding: 0 10px;
+    outline: 0;
+    border: 0;
+    border-radius: 35px;
+    appearance: none;
+    background-image: url(../images/dropdown.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position-x:calc(100% - 20px) ;
+    background-position-y: 20px;
+   
+}
